@@ -1,9 +1,23 @@
 {
-  "projectId": "ovitr6",
   "env": {
     "baseUrl": "https://iolap.com",
     "jobTitle": "ETL Developer",
     "randomJob": "QA Engineer",
-    "talentLyftURL": "https://iolap.talentlyft.com"
+    "talentLyftURL": "https://iolap.talentlyft.com",
+    "projectId": "ovitr6",
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+      "reporterEnabled": "cypress-mochawesome-reporter, mocha-junit-reporter",
+      "cypressMochawesomeReporterOptions": {
+        "reportDir": "cypress/reports",
+        "charts": true,
+        "reportPageTitle": "My Test Suite",
+        "embeddedScreenshots": true,
+        "inlineAssets": true
+      },
+      "mochaJunitReporterReporterOptions": {
+        "mochaFile": "cypress/reports/junit/results-[hash].xml"
+      }
+      }
 }
 }
