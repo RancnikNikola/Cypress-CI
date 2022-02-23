@@ -1,0 +1,9 @@
+{
+    "getStartedBtn": "Let's get started",
+    "offeringsURL": "/#offerings",
+
+    "openPositionsURL": "/#open-positions",
+    "openPositionsBtn": "View Open Positions",
+
+    "jobCSS": ".job-title"
+}
